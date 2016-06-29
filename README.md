@@ -10,3 +10,9 @@ This extension is currently very opinionated, but if you align with those opinio
 * Frontmatter dates take precedence over filename dates
 * Time element of filename date is `10:00:00`
 * All resources should be amended if they pass the previous criteria
+
+## Usage
+
+Add the following to your `config.rb`:
+
+    activate :postdated
