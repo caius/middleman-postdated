@@ -1,7 +1,8 @@
+require "middleman-postdated/version"
 require "middleman-core"
 
-module Postdated
-  class Extension < ::Middleman::Extension
+module Middleman
+  class PostdatedExtension < Extension
 
     # Run after frontmatter
     self.resource_list_manipulator_priority = 21

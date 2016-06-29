@@ -1,9 +1,9 @@
 $:.push File.expand_path("../lib", __FILE__)
-require "postdated/version"
+require "middleman-postdated/version"
 
 Gem::Specification.new do |s|
-  s.name        = "postdated"
-  s.version     = Postdated::VERSION
+  s.name        = "middleman-postdated"
+  s.version     = Middleman::Postdated::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Caius Durling"]
   s.email       = %w(dev@caius.name)
