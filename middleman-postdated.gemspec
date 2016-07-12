@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.email       = %w(dev@caius.name)
   s.summary     = %{Sets missing resource dates from filenames}
   s.description = %{Reads the filename of your site resources which don't have dates set, and sets them according to filename.}
+  s.license     = "MIT"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
